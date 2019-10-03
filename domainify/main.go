@@ -29,6 +29,12 @@ func main() {
 			}
 			newText = append(newText, r)
 		}
-		fmt.Println(string(newText) + "." + tlds[rand.Intn(len(tlds))])
+
+		checkEnd := newText[len(newText)-1:]
+		ntts := string(newText)
+		if checkEnd[0] == '-' {
+			ntts = strings.TrimRight(ntts, "-")
+		}
+		fmt.Println(ntts + "." + tlds[rand.Intn(len(tlds))])
 	}
 }
