@@ -13,15 +13,15 @@ const otherWord = "*"
 
 var transforms = []string{
 	otherWord,
-	otherWord + "app",
-	otherWord + "site",
-	otherWord + "time",
-	"get" + otherWord,
-	"go" + otherWord,
-	"lets" + otherWord,
-	"my" + otherWord,
-	"only" + otherWord,
-	otherWord + "hq",
+	otherWord + " app",
+	otherWord + " site",
+	otherWord + " time",
+	"get " + otherWord,
+	"go " + otherWord,
+	"lets " + otherWord,
+	"my " + otherWord,
+	"only " + otherWord,
+	otherWord + " hq",
 }
 
 func main() {
